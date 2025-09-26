@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<con:soapui-project id="bc071b40-111a-4494-9fa4-c6e83c033e99" activeEnvironment="Default" name="Cloud.betunel.com.br" resourceRoot="" soapui-version="5.9.1" xmlns:con="http://eviware.com/soapui/config"><con:settings/><con:interface xsi:type="con:WsdlInterface" id="7de52185-1fef-416c-abfe-93bdf7ee9c98" wsaVersion="NONE" name="RM_IwsBase" type="wsdl" bindingName="{http://www.totvs.com/}RM_IwsBase" soapVersion="1_1" anonymous="optional" definition="http://cloud.betunel.com.br:8051/wsProcess/mex?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsBase</con:endpoint></con:endpoints><con:operation id="1c0e5b45-2396-401a-b193-e45b1ee4c3ae" isOneWay="false" action="http://www.totvs.com/IwsBase/AutenticaAcesso" name="AutenticaAcesso" bindingOperationName="AutenticaAcesso" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4fe294ec-ed25-4fa7-b723-8f9e1c590a82" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsBase</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:AutenticaAcesso/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsBase/AutenticaAcesso"/></con:call></con:operation><con:operation id="c17fae5e-b1bf-4dba-920f-7734b1b2a1b2" isOneWay="false" action="http://www.totvs.com/IRMSServer/CheckServiceActivity" name="CheckServiceActivity" bindingOperationName="CheckServiceActivity" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5a5567d4-c80c-4ac1-9f37-aa35704242ec" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsBase</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:CheckServiceActivity/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IRMSServer/CheckServiceActivity"/></con:call></con:operation><con:operation id="379b9787-df35-46d0-acb6-947f2cd41f82" isOneWay="false" action="http://www.totvs.com/IRMSServer/Implements" name="Implements" bindingOperationName="Implements" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="4098ea8d-ec9d-462b-8b3e-795b3f971ebb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsBase</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:Implements>\r
+         <!--Optional:-->\r
+         <tot:type/>\r
+      </tot:Implements>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IRMSServer/Implements"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="05662d74-7909-4ef6-9284-d39d3ff19eba" wsaVersion="NONE" name="RM_IwsProcess" type="wsdl" bindingName="{http://www.totvs.com/}RM_IwsProcess" soapVersion="1_1" anonymous="optional" definition="http://cloud.betunel.com.br:8051/wsProcess/mex?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache/><con:endpoints><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint></con:endpoints><con:operation id="3d2f9cb4-1d73-4da5-a87c-8e265fcbddf0" isOneWay="false" action="http://www.totvs.com/IwsBase/AutenticaAcesso" name="AutenticaAcesso" bindingOperationName="AutenticaAcesso" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="5b5a72a1-dc20-462d-a696-9bf994fecbeb" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:AutenticaAcesso/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsBase/AutenticaAcesso"/></con:call></con:operation><con:operation id="2ea4d949-7621-4002-bd7d-140165b227de" isOneWay="false" action="http://www.totvs.com/IRMSServer/CheckServiceActivity" name="CheckServiceActivity" bindingOperationName="CheckServiceActivity" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="2979da04-4890-4bdb-9e44-44aabdb0361d" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:CheckServiceActivity/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IRMSServer/CheckServiceActivity"/></con:call></con:operation><con:operation id="40e98bde-af61-43ef-845f-4f5f05e2cd8a" isOneWay="false" action="http://www.totvs.com/IwsProcess/ExecuteProcess" name="ExecuteProcess" bindingOperationName="ExecuteProcess" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="120ec47a-9615-4289-acd8-fe5c9163da32" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:ExecuteProcess>\r
+         <!--Optional:-->\r
+         <tot:ProcessServerName>?</tot:ProcessServerName>\r
+      </tot:ExecuteProcess>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/ExecuteProcess"/></con:call></con:operation><con:operation id="8e366882-362e-44e2-8d66-f2c4ea546a3e" isOneWay="false" action="http://www.totvs.com/IwsProcess/ExecuteWithParams" name="ExecuteWithParams" bindingOperationName="ExecuteWithParams" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="a32c4528-ce8d-488f-b3f5-b67fbccbd03c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:ExecuteWithParams>\r
+         <!--Optional:-->\r
+         <tot:ProcessServerName>?</tot:ProcessServerName>\r
+         <!--Optional:-->\r
+         <tot:strXmlParams>?</tot:strXmlParams>\r
+      </tot:ExecuteWithParams>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/ExecuteWithParams"/></con:call></con:operation><con:operation id="b49be3b5-610e-4635-9c94-d35ed6fcb9f1" isOneWay="false" action="http://www.totvs.com/IwsProcess/ExecuteWithParamsAsync" name="ExecuteWithParamsAsync" bindingOperationName="ExecuteWithParamsAsync" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="b9e2f331-28e7-454b-a053-e14d69158c06" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:ExecuteWithParamsAsync>\r
+         <!--Optional:-->\r
+         <tot:ProcessServerName>?</tot:ProcessServerName>\r
+         <!--Optional:-->\r
+         <tot:strXmlParams>?</tot:strXmlParams>\r
+      </tot:ExecuteWithParamsAsync>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/ExecuteWithParamsAsync"/></con:call></con:operation><con:operation id="33d959de-24dd-4edc-822d-4724a066f686" isOneWay="false" action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParams" name="ExecuteWithXmlParams" bindingOperationName="ExecuteWithXmlParams" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c42febf4-77fd-4555-a14c-8cb65419be8a" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:ExecuteWithXmlParams>\r
+         <!--Optional:-->\r
+         <tot:ProcessServerName>?</tot:ProcessServerName>\r
+         <!--Optional:-->\r
+         <tot:strXmlParams>?</tot:strXmlParams>\r
+      </tot:ExecuteWithXmlParams>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParams"/></con:call></con:operation><con:operation id="8d353d6b-60b1-4164-8880-b23822435c6f" isOneWay="false" action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParamsAsync" name="ExecuteWithXmlParamsAsync" bindingOperationName="ExecuteWithXmlParamsAsync" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="6c5903ff-3858-46a9-ae80-f289002f2b0e" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:ExecuteWithXmlParamsAsync>\r
+         <!--Optional:-->\r
+         <tot:ProcessServerName>?</tot:ProcessServerName>\r
+         <!--Optional:-->\r
+         <tot:strXmlParams>?</tot:strXmlParams>\r
+      </tot:ExecuteWithXmlParamsAsync>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParamsAsync"/></con:call></con:operation><con:operation id="0382fb1b-67f7-4375-b18b-4fb8cc739c8d" isOneWay="false" action="http://www.totvs.com/IwsProcess/GetProcessStatus" name="GetProcessStatus" bindingOperationName="GetProcessStatus" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="7e91379d-a154-4419-ab15-3ed800bcd61c" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:GetProcessStatus>\r
+         <!--Optional:-->\r
+         <tot:jobId>?</tot:jobId>\r
+         <!--Optional:-->\r
+         <tot:execId>?</tot:execId>\r
+      </tot:GetProcessStatus>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/GetProcessStatus"/></con:call></con:operation><con:operation id="54aa53b8-d61a-4659-a03f-3dd9bca6ef0d" isOneWay="false" action="http://www.totvs.com/IwsProcess/GetSchema" name="GetSchema" bindingOperationName="GetSchema" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="9a83134e-9391-42c0-85b3-6dfebb7d0a02" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:GetSchema>\r
+         <!--Optional:-->\r
+         <tot:ProcessServerName>?</tot:ProcessServerName>\r
+      </tot:GetSchema>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/GetSchema"/></con:call></con:operation><con:operation id="c5d6db34-6e7b-4bb8-b9f5-c4da1ce20e9c" isOneWay="false" action="http://www.totvs.com/IwsProcess/GetSchema2" name="GetSchema2" bindingOperationName="GetSchema2" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="8c9fa64e-5ce0-425b-9f81-a70f1445d9a2" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:GetSchema2>\r
+         <!--Optional:-->\r
+         <tot:ProcessServerName>?</tot:ProcessServerName>\r
+         <!--Optional:-->\r
+         <tot:ownerData>?</tot:ownerData>\r
+      </tot:GetSchema2>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IwsProcess/GetSchema2"/></con:call></con:operation><con:operation id="713bad63-a1f9-49f2-855c-ba90174631f5" isOneWay="false" action="http://www.totvs.com/IRMSServer/Implements" name="Implements" bindingOperationName="Implements" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="c155336e-1078-4fbd-a31f-1eb6f2a28093" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IwsProcess</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:Implements>\r
+         <!--Optional:-->\r
+         <tot:type/>\r
+      </tot:Implements>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IRMSServer/Implements"/></con:call></con:operation></con:interface><con:interface xsi:type="con:WsdlInterface" id="cacc4d3d-bf50-4843-946d-26e8013ec121" wsaVersion="NONE" name="RM_IRMSServer" type="wsdl" bindingName="{http://www.totvs.com/}RM_IRMSServer" soapVersion="1_1" anonymous="optional" definition="http://cloud.betunel.com.br:8051/wsProcess/mex?wsdl" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:settings/><con:definitionCache type="TEXT" rootPart="http://cloud.betunel.com.br:8051/wsProcess/mex?wsdl"><con:part><con:url>http://cloud.betunel.com.br:8051/wsProcess/mex?wsdl</con:url><con:content><![CDATA[<wsdl:definitions name="wsProcess" targetNamespace="http://www.totvs.com/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.totvs.com/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://www.totvs.com/Imports">
+      <xsd:import schemaLocation="http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd0" namespace="http://www.totvs.com/"/>
+      <xsd:import schemaLocation="http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/"/>
+      <xsd:import schemaLocation="http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System"/>
+      <xsd:import schemaLocation="http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Reflection"/>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IRMSServer_Implements_InputMessage">
+    <wsdl:part name="parameters" element="tns:Implements"/>
+  </wsdl:message>
+  <wsdl:message name="IRMSServer_Implements_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ImplementsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IRMSServer_CheckServiceActivity_InputMessage">
+    <wsdl:part name="parameters" element="tns:CheckServiceActivity"/>
+  </wsdl:message>
+  <wsdl:message name="IRMSServer_CheckServiceActivity_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CheckServiceActivityResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsBase_AutenticaAcesso_InputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticaAcesso"/>
+  </wsdl:message>
+  <wsdl:message name="IwsBase_AutenticaAcesso_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AutenticaAcessoResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_GetSchema_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSchema"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_GetSchema_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSchemaResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_GetSchema2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetSchema2"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_GetSchema2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetSchema2Response"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteProcess_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteProcess"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteProcess_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteProcessResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithParams_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithParams"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithParams_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithParamsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithParamsAsync_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithParamsAsync"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithParamsAsync_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithParamsAsyncResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithXmlParams_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithXmlParams"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithXmlParams_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithXmlParamsResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithXmlParamsAsync_InputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithXmlParamsAsync"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_ExecuteWithXmlParamsAsync_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteWithXmlParamsAsyncResponse"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_GetProcessStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcessStatus"/>
+  </wsdl:message>
+  <wsdl:message name="IwsProcess_GetProcessStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetProcessStatusResponse"/>
+  </wsdl:message>
+  <wsdl:portType name="IRMSServer">
+    <wsdl:operation name="Implements">
+      <wsdl:input wsam:Action="http://www.totvs.com/IRMSServer/Implements" message="tns:IRMSServer_Implements_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IRMSServer/ImplementsResponse" message="tns:IRMSServer_Implements_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="CheckServiceActivity">
+      <wsdl:input wsam:Action="http://www.totvs.com/IRMSServer/CheckServiceActivity" message="tns:IRMSServer_CheckServiceActivity_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IRMSServer/CheckServiceActivityResponse" message="tns:IRMSServer_CheckServiceActivity_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IwsBase">
+    <wsdl:operation name="Implements">
+      <wsdl:input wsam:Action="http://www.totvs.com/IRMSServer/Implements" message="tns:IRMSServer_Implements_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IRMSServer/ImplementsResponse" message="tns:IRMSServer_Implements_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="CheckServiceActivity">
+      <wsdl:input wsam:Action="http://www.totvs.com/IRMSServer/CheckServiceActivity" message="tns:IRMSServer_CheckServiceActivity_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IRMSServer/CheckServiceActivityResponse" message="tns:IRMSServer_CheckServiceActivity_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticaAcesso">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsBase/AutenticaAcesso" message="tns:IwsBase_AutenticaAcesso_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsBase/AutenticaAcessoResponse" message="tns:IwsBase_AutenticaAcesso_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="IwsProcess">
+    <wsdl:operation name="Implements">
+      <wsdl:input wsam:Action="http://www.totvs.com/IRMSServer/Implements" message="tns:IRMSServer_Implements_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IRMSServer/ImplementsResponse" message="tns:IRMSServer_Implements_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="CheckServiceActivity">
+      <wsdl:input wsam:Action="http://www.totvs.com/IRMSServer/CheckServiceActivity" message="tns:IRMSServer_CheckServiceActivity_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IRMSServer/CheckServiceActivityResponse" message="tns:IRMSServer_CheckServiceActivity_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticaAcesso">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsBase/AutenticaAcesso" message="tns:IwsBase_AutenticaAcesso_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsBase/AutenticaAcessoResponse" message="tns:IwsBase_AutenticaAcesso_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchema">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/GetSchema" message="tns:IwsProcess_GetSchema_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/GetSchemaResponse" message="tns:IwsProcess_GetSchema_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchema2">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/GetSchema2" message="tns:IwsProcess_GetSchema2_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/GetSchema2Response" message="tns:IwsProcess_GetSchema2_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteProcess">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/ExecuteProcess" message="tns:IwsProcess_ExecuteProcess_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/ExecuteProcessResponse" message="tns:IwsProcess_ExecuteProcess_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithParams">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithParams" message="tns:IwsProcess_ExecuteWithParams_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithParamsResponse" message="tns:IwsProcess_ExecuteWithParams_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithParamsAsync">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithParamsAsync" message="tns:IwsProcess_ExecuteWithParamsAsync_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithParamsAsyncResponse" message="tns:IwsProcess_ExecuteWithParamsAsync_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithXmlParams">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParams" message="tns:IwsProcess_ExecuteWithXmlParams_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParamsResponse" message="tns:IwsProcess_ExecuteWithXmlParams_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithXmlParamsAsync">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParamsAsync" message="tns:IwsProcess_ExecuteWithXmlParamsAsync_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/ExecuteWithXmlParamsAsyncResponse" message="tns:IwsProcess_ExecuteWithXmlParamsAsync_OutputMessage"/>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcessStatus">
+      <wsdl:input wsam:Action="http://www.totvs.com/IwsProcess/GetProcessStatus" message="tns:IwsProcess_GetProcessStatus_InputMessage"/>
+      <wsdl:output wsam:Action="http://www.totvs.com/IwsProcess/GetProcessStatusResponse" message="tns:IwsProcess_GetProcessStatus_OutputMessage"/>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RM_IRMSServer" type="tns:IRMSServer">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Implements">
+      <soap:operation soapAction="http://www.totvs.com/IRMSServer/Implements" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckServiceActivity">
+      <soap:operation soapAction="http://www.totvs.com/IRMSServer/CheckServiceActivity" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RM_IwsBase" type="tns:IwsBase">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Implements">
+      <soap:operation soapAction="http://www.totvs.com/IRMSServer/Implements" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckServiceActivity">
+      <soap:operation soapAction="http://www.totvs.com/IRMSServer/CheckServiceActivity" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticaAcesso">
+      <soap:operation soapAction="http://www.totvs.com/IwsBase/AutenticaAcesso" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RM_IwsProcess" type="tns:IwsProcess">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="Implements">
+      <soap:operation soapAction="http://www.totvs.com/IRMSServer/Implements" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckServiceActivity">
+      <soap:operation soapAction="http://www.totvs.com/IRMSServer/CheckServiceActivity" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AutenticaAcesso">
+      <soap:operation soapAction="http://www.totvs.com/IwsBase/AutenticaAcesso" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchema">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/GetSchema" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSchema2">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/GetSchema2" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteProcess">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/ExecuteProcess" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithParams">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/ExecuteWithParams" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithParamsAsync">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/ExecuteWithParamsAsync" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithXmlParams">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/ExecuteWithXmlParams" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecuteWithXmlParamsAsync">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/ExecuteWithXmlParamsAsync" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProcessStatus">
+      <soap:operation soapAction="http://www.totvs.com/IwsProcess/GetProcessStatus" style="document"/>
+      <wsdl:input>
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="wsProcess">
+    <wsdl:port name="RM_IRMSServer" binding="tns:RM_IRMSServer">
+      <soap:address location="http://cloud.betunel.com.br:8051/wsProcess/IRMSServer"/>
+    </wsdl:port>
+    <wsdl:port name="RM_IwsBase" binding="tns:RM_IwsBase">
+      <soap:address location="http://cloud.betunel.com.br:8051/wsProcess/IwsBase"/>
+    </wsdl:port>
+    <wsdl:port name="RM_IwsProcess" binding="tns:RM_IwsProcess">
+      <soap:address location="http://cloud.betunel.com.br:8051/wsProcess/IwsProcess"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>]]></con:content><con:type>http://schemas.xmlsoap.org/wsdl/</con:type></con:part><con:part><con:url>http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd0</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://www.totvs.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://www.totvs.com/">
+  <xs:import schemaLocation="http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/System"/>
+  <xs:element name="Implements">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="type" nillable="true" type="q1:Type" xmlns:q1="http://schemas.datacontract.org/2004/07/System"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ImplementsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ImplementsResult" type="xs:boolean"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckServiceActivity">
+    <xs:complexType>
+      <xs:sequence/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="CheckServiceActivityResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="CheckServiceActivityResult" type="xs:boolean"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AutenticaAcesso">
+    <xs:complexType>
+      <xs:sequence/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AutenticaAcessoResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AutenticaAcessoResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSchema">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessServerName" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSchemaResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetSchemaResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSchema2">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessServerName" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="ownerData" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSchema2Response">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetSchema2Result" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteProcess">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessServerName" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteProcessResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecuteProcessResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithParams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessServerName" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="strXmlParams" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithParamsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecuteWithParamsResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithParamsAsync">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessServerName" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="strXmlParams" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithParamsAsyncResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecuteWithParamsAsyncResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithXmlParams">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessServerName" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="strXmlParams" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithXmlParamsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecuteWithXmlParamsResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithXmlParamsAsync">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ProcessServerName" nillable="true" type="xs:string"/>
+        <xs:element minOccurs="0" name="strXmlParams" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="ExecuteWithXmlParamsAsyncResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="ExecuteWithXmlParamsAsyncResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProcessStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="jobId" type="xs:int"/>
+        <xs:element minOccurs="0" name="execId" type="xs:int"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetProcessStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetProcessStatusResult" nillable="true" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd2</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/System" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/System">
+  <xs:import schemaLocation="http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/System.Reflection"/>
+  <xs:complexType name="Type">
+    <xs:complexContent mixed="false">
+      <xs:extension base="q1:MemberInfo" xmlns:q1="http://schemas.datacontract.org/2004/07/System.Reflection">
+        <xs:sequence/>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="Type" nillable="true" type="tns:Type"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd3</con:url><con:content><![CDATA[<xs:schema elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/System.Reflection" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.datacontract.org/2004/07/System.Reflection">
+  <xs:complexType name="MemberInfo">
+    <xs:sequence/>
+  </xs:complexType>
+  <xs:element name="MemberInfo" nillable="true" type="tns:MemberInfo"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part><con:part><con:url>http://cloud.betunel.com.br:8051/wsProcess/mex?xsd=xsd1</con:url><con:content><![CDATA[<xs:schema attributeFormDefault="qualified" elementFormDefault="qualified" targetNamespace="http://schemas.microsoft.com/2003/10/Serialization/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://schemas.microsoft.com/2003/10/Serialization/">
+  <xs:element name="anyType" nillable="true" type="xs:anyType"/>
+  <xs:element name="anyURI" nillable="true" type="xs:anyURI"/>
+  <xs:element name="base64Binary" nillable="true" type="xs:base64Binary"/>
+  <xs:element name="boolean" nillable="true" type="xs:boolean"/>
+  <xs:element name="byte" nillable="true" type="xs:byte"/>
+  <xs:element name="dateTime" nillable="true" type="xs:dateTime"/>
+  <xs:element name="decimal" nillable="true" type="xs:decimal"/>
+  <xs:element name="double" nillable="true" type="xs:double"/>
+  <xs:element name="float" nillable="true" type="xs:float"/>
+  <xs:element name="int" nillable="true" type="xs:int"/>
+  <xs:element name="long" nillable="true" type="xs:long"/>
+  <xs:element name="QName" nillable="true" type="xs:QName"/>
+  <xs:element name="short" nillable="true" type="xs:short"/>
+  <xs:element name="string" nillable="true" type="xs:string"/>
+  <xs:element name="unsignedByte" nillable="true" type="xs:unsignedByte"/>
+  <xs:element name="unsignedInt" nillable="true" type="xs:unsignedInt"/>
+  <xs:element name="unsignedLong" nillable="true" type="xs:unsignedLong"/>
+  <xs:element name="unsignedShort" nillable="true" type="xs:unsignedShort"/>
+  <xs:element name="char" nillable="true" type="tns:char"/>
+  <xs:simpleType name="char">
+    <xs:restriction base="xs:int"/>
+  </xs:simpleType>
+  <xs:element name="duration" nillable="true" type="tns:duration"/>
+  <xs:simpleType name="duration">
+    <xs:restriction base="xs:duration">
+      <xs:pattern value="\-?P(\d*D)?(T(\d*H)?(\d*M)?(\d*(\.\d*)?S)?)?"/>
+      <xs:minInclusive value="-P10675199DT2H48M5.4775808S"/>
+      <xs:maxInclusive value="P10675199DT2H48M5.4775807S"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="guid" nillable="true" type="tns:guid"/>
+  <xs:simpleType name="guid">
+    <xs:restriction base="xs:string">
+      <xs:pattern value="[\da-fA-F]{8}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{4}-[\da-fA-F]{12}"/>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:attribute name="FactoryType" type="xs:QName"/>
+  <xs:attribute name="Id" type="xs:ID"/>
+  <xs:attribute name="Ref" type="xs:IDREF"/>
+</xs:schema>]]></con:content><con:type>http://www.w3.org/2001/XMLSchema</con:type></con:part></con:definitionCache><con:endpoints><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IRMSServer</con:endpoint></con:endpoints><con:operation id="8d8d244a-6e1d-4608-a3c9-e5950d76abf5" isOneWay="false" action="http://www.totvs.com/IRMSServer/CheckServiceActivity" name="CheckServiceActivity" bindingOperationName="CheckServiceActivity" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="51d5e00f-23bd-42b3-a176-ad2f3f36083a" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IRMSServer</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:CheckServiceActivity/>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IRMSServer/CheckServiceActivity"/></con:call></con:operation><con:operation id="bdda6911-df9f-4ab7-8334-206373a54264" isOneWay="false" action="http://www.totvs.com/IRMSServer/Implements" name="Implements" bindingOperationName="Implements" type="Request-Response" inputName="" receivesAttachments="false" sendsAttachments="false" anonymous="optional"><con:settings/><con:call id="08ba30d7-d89b-4894-ada7-d49a8b467cd6" name="Request 1"><con:settings/><con:encoding>UTF-8</con:encoding><con:endpoint>http://cloud.betunel.com.br:8051/wsProcess/IRMSServer</con:endpoint><con:request><![CDATA[<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:tot="http://www.totvs.com/">\r
+   <soapenv:Header/>\r
+   <soapenv:Body>\r
+      <tot:Implements>\r
+         <!--Optional:-->\r
+         <tot:type/>\r
+      </tot:Implements>\r
+   </soapenv:Body>\r
+</soapenv:Envelope>]]></con:request><con:wsaConfig mustUnderstand="NONE" version="200508" action="http://www.totvs.com/IRMSServer/Implements"/></con:call></con:operation></con:interface><con:properties/><con:wssContainer/><con:oAuth2ProfileContainer/><con:oAuth1ProfileContainer/><con:sensitiveInformation/></con:soapui-project>
